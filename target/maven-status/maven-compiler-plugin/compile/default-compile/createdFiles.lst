@@ -1,3 +1,13 @@
+com/metageek/ssdh/account/service/resource/AccountResource.class
+com/metageek/ssdh/account/util/PasswordUtil.class
 com/metageek/ssdh/account/service/StreamLambdaHandler.class
-com/metageek/ssdh/account/model/UserAccount.class
-com/metageek/ssdh/account/model/UserCredential.class
+com/metageek/ssdh/account/ProfileStore.class
+com/metageek/ssdh/account/service/resource/AuthenticationResource.class
+com/metageek/ssdh/account/util/JWTHelper.class
+com/metageek/ssdh/account/model/Credential.class
+com/metageek/ssdh/account/util/ViolationUtil.class
+com/metageek/ssdh/account/CredentialStore.class
+com/metageek/ssdh/account/model/Account.class
+com/metageek/ssdh/account/service/resource/PingResource.class
+com/metageek/ssdh/account/util/MapperUtil.class
+com/metageek/ssdh/account/model/Profile.class

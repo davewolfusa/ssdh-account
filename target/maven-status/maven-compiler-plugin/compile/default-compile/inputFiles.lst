@@ -1,3 +1,13 @@
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/util/PasswordUtil.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/model/Credential.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/service/resource/AccountResource.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/util/MapperUtil.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/ProfileStore.java
 /Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/service/StreamLambdaHandler.java
-/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/model/UserAccount.java
-/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/model/UserCredential.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/service/resource/AuthenticationResource.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/util/ViolationUtil.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/model/Account.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/util/JWTHelper.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/service/resource/PingResource.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/CredentialStore.java
+/Users/davewolf/Development/projects/ssdh-account/src/main/java/com/metageek/ssdh/account/model/Profile.java
