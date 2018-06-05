@@ -1,5 +1,7 @@
 package com.metageek.ssdh.account.model;
 
+import java.io.Serializable;
+
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -11,8 +13,9 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
-public @Data class Profile {
+public @Data class Profile implements Serializable {
 	
+	private static final long serialVersionUID = 1L;
 	private static final String PERSON_NAME_REGEX = "[A-z0-9\\s\\.\\-\\']+";
 	
 	@NotNull @Pattern(regexp = PERSON_NAME_REGEX) @Size(min = 2, max = 60)

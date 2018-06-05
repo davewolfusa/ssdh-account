@@ -84,23 +84,12 @@ public class AuthenticationResource {
         return Response.status(httpStatus).entity(response).build();
 	}
     
+	/* Not Yet Implemented
 	@DELETE
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
 	public Response logout(String username) {
-		
-		Map<String, String> response = new HashMap<>();
-		int httpStatus;
-		String passwordHash = CredentialStore.instance().remove(username);
-		if (passwordHash != null) {
-    			response.put("result", "Account REMOVED!");
-    			httpStatus = 200;
-		} else {
-    			response.put("result", "Account does not exist!");
-    			httpStatus = 200;
-		}
-		
-        return Response.status(httpStatus).entity(response).build();
 	}
+	 */
 
 }

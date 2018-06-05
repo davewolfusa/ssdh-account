@@ -1,2 +1,6 @@
 /Users/davewolf/Development/projects/ssdh-account/src/test/java/com/metageek/ssdh/account/model/ProfileTest.java
 /Users/davewolf/Development/projects/ssdh-account/src/test/java/com/metageek/ssdh/account/model/CredentialTest.java
+/Users/davewolf/Development/projects/ssdh-account/src/test/java/com/metageek/ssdh/account/util/BuildTestObjects.java
+/Users/davewolf/Development/projects/ssdh-account/src/test/java/com/metageek/ssdh/account/service/resource/AccountResourceTest.java
+/Users/davewolf/Development/projects/ssdh-account/src/test/java/com/metageek/ssdh/account/util/PasswordUtilTest.java
+/Users/davewolf/Development/projects/ssdh-account/src/test/java/com/metageek/ssdh/account/util/GenerateTestFiles.java
