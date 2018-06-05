@@ -12,10 +12,20 @@ Resources:
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 15
       Events:
-        GetResource:
+        PingResource:
           Type: Api
           Properties:
-            Path: /{proxy+}
+            Path: /ping
+            Method: GET
+        AccountResource:
+          Type: Api
+          Properties:
+            Path: /account
+            Method: any
+        AuthenticationResource:
+          Type: Api
+          Properties:
+            Path: /authentication
             Method: any
 
 Outputs:
@@ -29,3 +39,8 @@ Outputs:
     Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/account'
     Export:
       Name: AccountApi
+  SSDHApi:
+    Description: SSDH Account endpoint
+    Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/authentication'
+    Export:
+      Name: AuthenticationApi
