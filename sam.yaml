@@ -1,13 +1,13 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: AWS Serverless Jersey API - com.metageek.ssdh.account.service::jersey-sample
+Description: AWS Serverless SSDH Account API - com.metageek.ssdh::account
 Resources:
-  JerseySampleFunction:
+  SSDHAccountEndpoints:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.metageek.ssdh.account.service.StreamLambdaHandler::handleRequest
       Runtime: java8
-      CodeUri: target/account-1.0.jar
+      CodeUri: target/account-1.0-SNAPSHOT.jar
       MemorySize: 512
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 15
@@ -19,8 +19,13 @@ Resources:
             Method: any
 
 Outputs:
-  JerseySampleApi:
-    Description: URL for application
+  SSDHApiPing:
+    Description: SSDH Ping endpoint
     Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/ping'
     Export:
-      Name: JerseySampleApi
+      Name: PingApi
+  SSDHApiAccount:
+    Description: SSDH Account endpoint
+    Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/account'
+    Export:
+      Name: AccountApi
