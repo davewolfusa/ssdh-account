@@ -104,12 +104,6 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-validator-cdi</artifactId>
-      <version>6.0.10.Final</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
